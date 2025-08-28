@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     max-width: 500px;
@@ -12,7 +12,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-/* Input & Button Area */
+
 #taskInput {
     width: calc(100% - 100px);
     padding: 10px;
@@ -37,7 +37,7 @@ h1 {
     background-color: #218838;
 }
 
-/* Task List */
+
 #taskList {
     list-style-type: none;
     padding-left: 0;
@@ -49,34 +49,30 @@ h1 {
     margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Vertically center everything */
+    align-items: center;
     border: 1px solid #ddd;
     border-radius: 6px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
-/* Task text styling */
 #taskList li span {
     font-size: 16px;
     flex-grow: 1;
     align-self: center;
 }
 
-/* Completed tasks */
 #taskList li.completed span {
     text-decoration: line-through;
     color: gray;
 }
 
-/* Button container */
 .task-buttons {
     display: flex;
-    gap: 10px; /* gap between buttons */
+    gap: 10px;
 }
 
-/* Buttons */
 .task-buttons button {
-    width: 80px;             /* same size */
+    width: 80px;
     padding: 6px 0;
     font-size: 14px;
     border: none;
@@ -85,16 +81,12 @@ h1 {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-
-/* Complete button */
 .task-buttons button:first-child {
     background-color: #17a2b8;
 }
 .task-buttons button:first-child:hover {
     background-color: #138496;
 }
-
-/* Delete button */
 .task-buttons button:last-child {
     background-color: #007bff;
 }
